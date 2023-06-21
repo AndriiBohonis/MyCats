@@ -41,7 +41,7 @@ function Content() {
 						{itemData.map(item => (
 							<ImageListItem key={item.img}>
 								<img
-									src={`../../images/${item.img}?w=248&fit=crop&auto=format&dpr=2`}
+									src={require(`../../images/${item.img}?w=161&fit=crop&auto=format`)}
 									alt={item.title}
 									loading='lazy'
 								/>

@@ -13,7 +13,6 @@ function Banner() {
 	return (
 		<BannerContainer>
 			<BannerImage src={banner}></BannerImage>
-
 			<BannerContent>
 				<Typography variant='h5'> Our motto</Typography>
 				<BannerTitle variant='h2'>Help animals</BannerTitle>
